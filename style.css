@@ -53,3 +53,11 @@ body {
 .mt {
     margin-top: 100px;
 }
+
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
