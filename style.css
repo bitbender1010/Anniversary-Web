@@ -20,10 +20,11 @@ body {
 
 .intro {
     background-color: white;
-    margin: 50px 0px;
+    margin: 50px 20px;
     padding: 5px 30px;
     border-radius: 100px;
     font-weight: 600;
+    text-align: center;
 }
 
 .graphics {
@@ -60,4 +61,23 @@ footer {
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: 600;
+    text-align: center;
+}
+
+
+
+/*Media Queries*/
+@media (max-width: 500px) {
+    .graphics {
+        width: 80%;
+    }
+
+    .writeup {
+        padding: 0px 20px;
+    }
+
+    .pictures {
+        width: 85%;
+    }
+
 }
